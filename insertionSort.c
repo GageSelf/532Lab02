@@ -22,7 +22,7 @@ int main(){
 
     for(int i = 0; i < len; i++){
         printf("Please enter element %d of array; ", i+1);
-        scanf("%d", &arr[i]");
+        scanf("%d", &arr[i]);
     }
 
     int j = 0;
