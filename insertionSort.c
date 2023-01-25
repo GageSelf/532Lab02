@@ -21,12 +21,12 @@ int main(){
     int arr[len];
 
     for(int i = 0; i < len; i++){
-        printf("Please enter element %d of array; ", i+1);
+        printf("Please enter element %d of array: ", i+1);
         scanf("%d", &arr[i]);
     }
 
     int j = 0;
-    printf("Given array is: [");
+    printf("\nGiven array is: [");
     while(j < (len - 1)){
         printf("%d, ", arr[j]);
         j++;
@@ -36,7 +36,7 @@ int main(){
     insertionSort(arr, len);
 
     j = 0;
-    printf("Sorted array is: [");
+    printf("\nSorted array is: [");
     while(j < (len - 1)){
         printf("%d, ", arr[j]);
         j++;
